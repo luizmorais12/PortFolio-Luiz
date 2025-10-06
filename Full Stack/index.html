@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Luiz Henrique Morais dos Santos | Desenvolvedor Full-Stack</title>
+  <meta name="description" content="Portfólio profissional de Luiz Henrique Morais dos Santos — Desenvolvedor Full-Stack e Supervisor de Informática em Poá-SP." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-nKuY6VZtXnx6rMP6Z7oRt1Bt1pOvoBRg0IT4JcS62uZP5UrOAv9K3J0v4BRznvHYrW2yF4O6mT9bDkDxndP6+g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+
+
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-ring"></div>
+    <h1 class="loader-text">Luiz Henrique Morais dos Santos</h1>
+    <p class="loader-sub">Deploying Creativity...</p>
+  </div>
+
+  <!-- Scroll progress -->
+  <div id="scroll-progress"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+  <div class="nav-logo">Luiz<span>Henrique</span></div>
+
+  <button class="burger" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <ul class="nav-links">
+    <li><a href="#hero" class="nav-link">Início</a></li>
+    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+    <li><a href="#techlogos" class="nav-link">Tecnologias</a></li>
+    <li><a href="#certs" class="nav-link">Certificações</a></li>
+    <li><a href="#contato" class="btn-cta">Contato</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Hero -->
+  <header id="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Olá, eu sou <span class="typing">Luiz Henrique Morais dos Santos</span></h1>
+      <p>Desenvolvedor Full-Stack</p>
+      <a href="#sobre" class="btn">Explorar</a>
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section" data-aos="fade-up">
+    <h2>Sobre Mim</h2>
+    <div class="sobre-grid">
+      <img src="./img/luiz.jpg" alt="Foto de Luiz Henrique" class="perfil">
+      <div class="sobre-texto">
+        <p>Sou apaixonado por tecnologia, automação e soluções que impactam positivamente pessoas e processos. Atuo como Tecnico de Informática no Instituto Alpha de Medicina, em Poá-SP, liderando projetos internos, infraestrutura VMware e sistemas corporativos.</p>
+        <p>Com formação em <strong>Análise e Desenvolvimento de Sistemas (FATEC)</strong> e <strong>Pós-Graduação em Desenvolvimento Full-Stack (FIAP)</strong>, busco unir técnica e inovação para entregar resultados reais.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Front-End</h3>
+        <ul>
+          <li>HTML / CSS / JavaScript</li>
+          <li>React + Vite + Tailwind</li>
+          <li>Design Responsivo</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Back-End</h3>
+        <ul>
+          <li>Node.js / Express</li>
+          <li>Java / Spring Boot</li>
+          <li>APIs RESTful</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Bancos de Dados</h3>
+        <ul>
+          <li>PostgreSQL / MySQL / SQLite</li>
+          <li>Oracle PL/SQL</li>
+        </ul>
+      </div>
+      
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Liderança & Comunicação</li>
+          <li>Gestão de Projetos</li>
+          <li>Inovação & Resiliência</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="techstack" class="section" data-aos="fade-up">
+    <h2>Tech Stack Interativo</h2>
+    <div class="stack-bars">
+      <div class="bar"><span>React</span><div class="fill" data-fill="90"></div></div>
+      <div class="bar"><span>Node.js</span><div class="fill" data-fill="85"></div></div>
+      <div class="bar"><span>PostgreSQL</span><div class="fill" data-fill="80"></div></div>
+      <div class="bar"><span>VMware / Docker</span><div class="fill" data-fill="75"></div></div>
+      <div class="bar"><span>Java / Spring</span><div class="fill" data-fill="70"></div></div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+<section id="projetos" class="section" data-aos="fade-up">
+  <h2>Projetos em Destaque</h2>
+  <div class="projects">
+    <div class="card project-card" data-tilt>
+      <div class="card-img" style="background-image: url('./img/intranet.jpg');"></div>
+      <div class="card-content">
+        <h3>Intranet Hospitalar</h3>
+        <p>Portal interno corporativo — React + Tailwind + MySQL.</p>
+        <a href="https://github.com/luizmorais12" target="_blank" class="btn-project">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Projeto
+        </a>
+      </div>
+    </div>
+
+    <div class="card project-card" data-tilt>
+      <div class="card-img" style="background-image: url('./img/calendario.png');"></div>
+      <div class="card-content">
+        <h3>Projeção Patrimonial</h3>
+        <p>Dashboard financeiro — React + Node + PostgreSQL.</p>
+        <a href="https://github.com/luizmorais12" target="_blank" class="btn-project">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Projeto
+        </a>
+      </div>
+    </div>
+
+    <div class="card project-card" data-tilt>
+      <div class="card-img" style="background-image: url('./img/ava.jpg');"></div>
+      <div class="card-content">
+        <h3>Ambiente Virtual de Aprendizagem</h3>
+        <p>Dashboard financeiro — React + Node + PostgreSQL.</p>
+        <a href="https://github.com/luizmorais12" target="_blank" class="btn-project">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Projeto
+        </a>
+      </div>
+    </div>
+
+    <div class="card project-card" data-tilt>
+      <div class="card-img" style="background-image: url('./img/calemdario.jpg');"></div>
+      <div class="card-content">
+        <h3>Calendario de Reuniões</h3>
+        <p>Dashboard financeiro — React + Node + PostgreSQL.</p>
+        <a href="https://github.com/luizmorais12" target="_blank" class="btn-project">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Projeto
+        </a>
+      </div>
+    </div>
+
+    <div class="card project-card" data-tilt>
+      <div class="card-img" style="background-image: url('assets/project3.jpg');"></div>
+      <div class="card-content">
+        <h3>CRUD Pizzaria</h3>
+        <p>Aplicação desktop — Java Swing + SQLite.</p>
+        <a href="https://github.com/luizmorais12" target="_blank" class="btn-project">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Projeto
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <section id="contato" class="section" data-aos="fade-up">
+  <h2>🤝 Conecte-se comigo</h2>
+  <p>Aberto a oportunidades, colaborações e networking na área de tecnologia.</p>
+
+  <div class="contact-links">
+    <a href="https://www.linkedin.com/in/luizmorais-dev/" target="_blank" class="contact-card">
+      <i class="fab fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+    <a href="https://github.com/luizmorais12" target="_blank" class="contact-card">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
+    <a href="./img/Curriculo.Luiz .pdf" download class="contact-card">
+      <i class="fas fa-file-alt"></i>
+      <span>Currículo</span>
+    </a>
+  </div>
+</section>
+
+
+
+  <!-- Certificações -->
+  <section id="certs" class="section" data-aos="fade-up">
+    <h2>Certificações & Formação</h2>
+    <div class="timeline">
+      <div class="tl-item"><span class="tl-dot"></span><p><strong>ADS – FATEC</strong> (2021-2024)</p></div>
+      <div class="tl-item"><span class="tl-dot"></span><p><strong>Pós-Graduação – FIAP</strong> (Full-Stack Dev)</p></div>
+      <div class="tl-item"><span class="tl-dot"></span><p>VMware Virtualization – Certificação Interna</p></div>
+      <div class="tl-item"><span class="tl-dot"></span><p>AI Prompt Engineering Essentials</p></div>
+    </div>
+  </section>
+
+  <!-- Tecnologias e Ferramentas -->
+<section id="techlogos" class="section" data-aos="fade-up">
+  <h2>Tecnologias & Ferramentas</h2>
+  <p>Algumas das stacks que utilizo no meu dia a dia como desenvolvedor Full-Stack 🚀</p>
+
+  <div class="logos-slider">
+    <div class="logos-track">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contato -->
+  <section id="contato" class="section" data-aos="fade-up">
+    <h2>Contato</h2>
+    <form id="contact-form">
+     <form id="contact-form">
+  <input type="text" name="from_name" placeholder="Seu nome" required />
+  <input type="email" name="from_email" placeholder="Seu e-mail" required />
+  <textarea name="message" placeholder="Sua mensagem..." required></textarea>
+  <button type="submit">Enviar</button>
+  <p id="form-status"></p>
+</form>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/luizmorais12" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/luizmorais12" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <!-- CV -->
+  <a href="./img/Curriculo.Luiz .pdf" class="floating-cv" download title="Baixar Currículo">
+    <i class="fas fa-file-download"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Luiz Henrique Morais dos Santos — Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Libs -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="script.js"></script>
+</body>
+</html>
